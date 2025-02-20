@@ -1,4 +1,4 @@
-# javascript-projects
+
 # JavaScript Project 🛠️
 
 This repository contains various JavaScript projects built with **HTML**, **CSS**, and **JavaScript**. These projects demonstrate core web development skills and JavaScript functionality.
