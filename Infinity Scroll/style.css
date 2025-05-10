@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box ;
+}
+body {
+  font-family: 'Tagesschrift', sans-serif;
+  background: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Tagesschrift', sans-serif;
+  font-size: 33px;
+  text-align: center;
+  margin-top: 20px;
+}
+/* .loader */
+.loader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgb(255, 255,255,0.8);
+
+}
+.loader img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* image container */
+.image-container{
+  margin-top: 10px ;
+}
+.image-container img{
+  width: 100%;
+  margin-top: 5px;
+  /* height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2); */
+}
+/* Media query : large SmartPhone  */
+@media screen and (max-width:600px) {
+ h1 {
+  font-size: 20px;
+ }
+  .image-container {
+    margin: 10px;
+  }
+}
