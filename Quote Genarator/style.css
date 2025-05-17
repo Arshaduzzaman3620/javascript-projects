@@ -88,15 +88,17 @@ button:active{
   border: 16px solid #f3f3f3;
   border-top: 16px solid #333;
   border-radius: 50%;
+  position: center;
   width: 120px;
   height: 120px;
   animation: spin 2s linear infinite;
 }
 #loader {
   display: none;
+  position: fixed;
 }
 
-#loader:not([hidden]) {
+#loader:not([ style*="display: none"]) {
   display: block;
 }
 
